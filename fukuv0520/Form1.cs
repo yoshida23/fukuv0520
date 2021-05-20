@@ -17,5 +17,19 @@ namespace fukuv0520
             InitializeComponent();
         }
 
+        private void button1_Click(object sender, EventArgs e)
+        {
+            button1.Visible = false;
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            button2.Enabled = false;
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            button3.Size = new Size(100,200);
+        }
     }
 }
